@@ -31,6 +31,8 @@
 		52F51994221519D600F8CD40 /* PharmacyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F51993221519D600F8CD40 /* PharmacyDetailsViewController.swift */; };
 		52F897F02202CC4F007E1F0D /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F897EF2202CC4F007E1F0D /* userInfo.swift */; };
 		52F897F22202CEBA007E1F0D /* AddAlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F897F12202CEBA007E1F0D /* AddAlarmTableViewController.swift */; };
+		844A8AD422E9A9AD0091EF2F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844A8AD322E9A9AD0091EF2F /* WebKit.framework */; };
+		844A8AD622E9A9B30091EF2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844A8AD522E9A9B30091EF2F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		52F51993221519D600F8CD40 /* PharmacyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacyDetailsViewController.swift; sourceTree = "<group>"; };
 		52F897EF2202CC4F007E1F0D /* userInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
 		52F897F12202CEBA007E1F0D /* AddAlarmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmTableViewController.swift; sourceTree = "<group>"; };
+		844A8AD322E9A9AD0091EF2F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		844A8AD522E9A9B30091EF2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844A8AD622E9A9B30091EF2F /* MapKit.framework in Frameworks */,
+				844A8AD422E9A9AD0091EF2F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +174,8 @@
 		527B8FEE2205671A009BCEB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				844A8AD522E9A9B30091EF2F /* MapKit.framework */,
+				844A8AD322E9A9AD0091EF2F /* WebKit.framework */,
 				52374655221162C200346BC5 /* UserNotifications.framework */,
 				527B8FEF2205671A009BCEB0 /* libsqlite3.tbd */,
 			);
@@ -433,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQUXN3XA23;
 				INFOPLIST_FILE = MedicineZ/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQUXN3XA23;
 				INFOPLIST_FILE = MedicineZ/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
