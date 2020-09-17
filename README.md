@@ -1,5 +1,7 @@
 # 약 먹는 시간을 알려주는, 미니 약국
 
+다운로드 링크 : https://apps.apple.com/kr/app/%EB%AF%B8%EB%8B%88%EC%95%BD%EA%B5%AD/id1469902368
+
 Fractal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
